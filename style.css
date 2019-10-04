@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white;
+}
+table{
+  background: #cee3ed;
+}
+input[type = "text"]{
+  border:0;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #2685bb;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  text-align: center;
+  border: 2px solid #2685bb;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+select{
+  border:0;
+  background-color: white;
+  text-align: center;
+  border: 2px solid #2685bb;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.logo{
+  width: 130px;
+  position: absolute; /*Definie la position de la div*/
+  left: 2.5%;
+  top: 55%;
+}
+.onglet{
+  width: 100%;
+  height: 160px; /*Définie un espace dans tout les sens*/
+  position: absolute; /*Definie la position de la div*/
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #2685bb;
+  border: 0;
+  border-radius: 15px;
+}
+.liste{
+  padding: 80px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.liste1{
+  padding: 80px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-family: Arial;
+  color: white;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+.liste2{
+  padding: 80px;
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  font-family: Arial;
+  color: white;
+  font-size: 12.5px;
+  font-weight: bold;
+}
+.sub {
+  background-color: white;
+}
+.PC{
+  width: 100%;
+  height: 160px; /*Définie un espace dans tout les sens*/
+  position: absolute; /*Definie la position de la div*/
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #2685bb;
+  border: 0;
+  border-radius: 15px;
+}
+fieldset{
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
